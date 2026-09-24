@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+article {
+    text-align: justify;
+    max-width: 550px;
+    margin: 0 auto;
+    line-height: 1.3;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article h1 {
+    font-style: italic;
+    text-align: center;
+}
