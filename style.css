@@ -12,3 +12,12 @@ article h1 {
     font-style: italic;
     text-align: center;
 }
+
+body {
+    background-color: #ebdfdb;
+    text-align: justify;
+    max-width: 550px;
+    margin: 100px auto 100px auto;
+    line-height: 1.3;
+    font-family: 'Times New Roman', Times, serif;
+}
