@@ -17,7 +17,26 @@ body {
     background-color: #f9f2ee;
     text-align: justify;
     max-width: 550px;
-    margin: 100px auto 100px auto;
+    margin: 50px auto 100px auto;
     line-height: 1.3;
     font-family: 'Times New Roman', Times, serif;
+}
+
+/* Mobile */
+.container {
+    padding: 14px;
+}
+
+/* Tablet */
+@media (min-width:600px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+/* Desktop */
+@media (min-width:900px) {
+    .container {
+        padding: 24px;
+    }
 }
