@@ -25,12 +25,13 @@ body {
 }
 
 .quote {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.1rem;
     color: #5a1304;
 }
 
 .greek {
-    font-family: 'GFS Didot', serif;
+    font-family: "GFS Didot", serif;
     font-size: 0.9rem;
     color: #5a1304;
 }
