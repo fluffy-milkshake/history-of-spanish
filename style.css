@@ -16,7 +16,7 @@ article h1 {
 }
 
 body {
-    background-color: #fdf5e1;
+    background-color: #FFF8DE;
     text-align: justify;
     max-width: 550px;
     margin: 50px auto 100px auto;
@@ -32,7 +32,7 @@ body {
 
 .greek {
     font-family: "GFS Didot", serif;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #5a1304;
 }
 
