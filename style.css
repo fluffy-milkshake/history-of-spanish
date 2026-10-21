@@ -36,6 +36,30 @@ body {
     color: #5a1304;
 }
 
+.footnote {
+  cursor: pointer;
+  
+.footnotetext {
+  visibility: hidden; /* Hidden by default */
+  width: 130px;
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1; /* Ensure tooltip is displayed above content */
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+}
+
+/* Show the tooltip text on hover */
+.footnote:hover .footnotetext {
+  visibility: visible;
+  opacity: 1;
+}
+
 @media (max-width:600px) {
     body {
   padding: 5%;
